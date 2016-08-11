@@ -31,6 +31,7 @@
   },
   "homepage": "https://github.com/jansanchez/fictional-server#readme",
   "dependencies": {
+    "js-yaml": "^3.6.1",
     "json-server": "^0.8.17"
   },
   "devDependencies": {
