@@ -14,7 +14,8 @@
   "scripts": {
     "lint": "xo index.js",
     "dev": "pm2-dev run index.js",
-    "production": "NODE_ENV=production webpack --config ./webpack.production.config.js"
+    "production": "pm2 start index.js",
+    "build": "NODE_ENV=production webpack --config ./webpack.production.config.js"
   },
   "repository": {
     "type": "git",
